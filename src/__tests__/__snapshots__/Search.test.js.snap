@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <img
+      alt="NASA logo"
+      class="App__logo"
+      src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
+    />
+    <input
+      class="Search__input"
+      type="text"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders Search component 1`] = `
+<DocumentFragment>
+  <input
+    class="Search__input"
+    type="text"
+  />
+</DocumentFragment>
+`;
+
+exports[`renders correctly 1`] = `
+<DocumentFragment>
+  <input
+    class="Search__input"
+    type="text"
+  />
+</DocumentFragment>
+`;
+
+exports[`renders yes 1`] = `
+<DocumentFragment>
+  <input
+    class="Search__input"
+    type="text"
+  />
+</DocumentFragment>
+`;
