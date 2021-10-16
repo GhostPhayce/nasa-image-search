@@ -4,17 +4,17 @@ import SearchResults from "./SearchResults";
 import "../styles/App.css";
 
 function App() {
-  const [searchResults, setSearchResults] = useState([]);
+  const [searchResults, setSearchResults] = useState();
 
   return (
-    <div className="app">
+    <div className="App">
       <img
-        className="app-logo"
+        className="App-logo"
         src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
         alt="NASA logo"
       />
       <Search setSearchResults={setSearchResults} />
-      <SearchResults results={searchResults} />
+      <SearchResults searchResults={searchResults} />
     </div>
   );
 }

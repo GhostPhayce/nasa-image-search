@@ -8,14 +8,25 @@
   font-size: 1.5rem;
   text-align: center;
   background: #efefef;
-  border: none;
+  border: 2px solid #efefef;
   outline: none;
+  caret-color: #ca0027;
+}
+.search-form__input:focus {
+  border: 2px dashed #ca0027;
 }
 .search-form__button {
   padding: 0 1rem;
   border: none;
-}
-.search-form__button:hover {
   background: #ca0027;
   color: #fff;
+}
+.search-form__button:hover {
+  background: #333;
+  color: #fff;
+}
+@media (max-width: 400px) {
+  .search-form__input {
+    max-width: 200px;
+  }
 }

@@ -1,9 +1,9 @@
-.app {
+.App {
   display: flex;
   flex-direction: column;
 }
 
-.app-logo {
+.App-logo {
   max-width: 200px;
   margin: 0 auto;
 }
