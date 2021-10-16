@@ -1,7 +1,11 @@
+import React from "react";
 import { render } from '@testing-library/react';
 import App from "../components/App";
 
-it("renders App component", () => {
+describe("App", () => {
     const { asFragment } = render(<App />);
-    expect(asFragment()).toMatchSnapshot();
+
+    it("renders correctly", () => {
+        expect(asFragment()).toMatchSnapshot();
+    });
 });

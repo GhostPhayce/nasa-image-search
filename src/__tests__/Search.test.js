@@ -1,7 +1,11 @@
-import { render } from '@testing-library/react';
+import React from "react";
+import { render } from "@testing-library/react";
 import Search from "../components/Search";
 
-it("renders Search component", () => {
+describe("Search", () => {
     const { asFragment } = render(<Search />);
-    expect(asFragment()).toMatchSnapshot();
+    
+    it("renders correctly", () => {
+        expect(asFragment()).toMatchSnapshot();
+    });
 });

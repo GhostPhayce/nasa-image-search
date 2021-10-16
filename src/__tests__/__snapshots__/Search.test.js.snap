@@ -1,5 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Search renders correctly 1`] = `
+<DocumentFragment>
+  <input
+    class="Search__input"
+    type="text"
+  />
+</DocumentFragment>
+`;
+
 exports[`renders 1`] = `
 <DocumentFragment>
   <div
