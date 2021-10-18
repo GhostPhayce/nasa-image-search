@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/SearchResults.css";
+import { Fancybox } from "@fancyapps/ui";
+import "@fancyapps/ui/dist/fancybox.css";
 
 const SearchResults = ({ searchResults }) => {
   if (!searchResults) {
@@ -17,6 +19,7 @@ const SearchResults = ({ searchResults }) => {
             target="_blank"
             rel="noreferrer"
             key={index}
+            data-fancybox="gallery"
           >
             <img
             key={image}
