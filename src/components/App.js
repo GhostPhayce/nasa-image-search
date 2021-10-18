@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Search from "./Search";
 import SearchResults from "./SearchResults";
-import { Fancybox } from "@fancyapps/ui";
-import "@fancyapps/ui/dist/fancybox.css";
 import "../styles/App.css";
 
 
