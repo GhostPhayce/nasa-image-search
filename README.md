@@ -17,7 +17,7 @@
 <p align="center">
   <h1 style="text-transform: uppercase;">NASA Image Search</h1>
 </p>
-<a href="https://ghostphayce-nasa-image-search.herokuapp.com/"><img src="http://ghostphayce.tv/wp-content/uploads/2021/10/nasa-image-search.png alt="screenshot" border="0"></a>
+<a href="https://ghostphayce-nasa-image-search.herokuapp.com/"><img src="http://ghostphayce.tv/wp-content/uploads/2021/10/nasa-image-search.png" alt="screenshot" border="0"></a>
 <br />
 
 ## About The Project
