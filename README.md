@@ -30,7 +30,6 @@ This was created as part of a mock React Technical Test with Manchester Codes.
 git clone git@github.com:GhostPhayce/nasa-image-search.git
 cd nasa-image-search
 npm install
-
 ```
 
 ## Usage
